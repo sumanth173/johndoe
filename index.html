@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        .navbar p{
+            color: #ffffff;
+            font-size: 12px;
+            font-family: sans-serif;
+            padding: 8px 16px;
+        }
+        .imae{
+            
+            height: auto;
+            max-width:100%;
+            vertical-align: middle;
+            
+        }
+        .sidebar{
+            width:100px;
+            background-color: #222;
+            height: 100vh;
+        }
+        .svg1{
+            text-align: center;
+            
+        }
+        .home1{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            background-color:black;
+            padding: 10px;
+            
+        }
+        .home{
+            margin-top: 5px;
+        }
+        .sidebar p{
+            color: #ffffff;
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+        .sidebar a{
+            text-decoration: none;;
+        }
+        .about1{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        .about{
+            margin-top: 5px;
+        }
+        .photos1{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            padding: 10px;
+
+        }
+        .photos{
+            margin-top: 5px;
+
+        }
+        .photosvg{
+            margin-left: 5px;
+        }
+        .contact1{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            padding: 10px;
+        
+
+        }
+        .contact{
+            margin-top: 5px;
+            
+        }
+        .contactsvg{
+            margin-left: 2px;
+        }
+        .about1:hover,.photos1:hover,.contact1:hover{
+            background-color:black ;
+        }
+        @media screen and (min-width:0px) and (max-width:375px){
+            #sidenavbar{
+                display: none;
+            }
+            
+        }
+
+    </style>
+</head>
+<body style="background-color: black;">
+    <div id="sidenavbar">
+        <nav class="sidebar">
+            <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg " style="width:100%" alt="">
+            <div class="home1">
+            <a href=""><svg class="svg1" fill="#ffffff" width="35px" height="35px" viewBox="-4.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>home</title> <path d="M19.469 12.594l3.625 3.313c0.438 0.406 0.313 0.719-0.281 0.719h-2.719v8.656c0 0.594-0.5 1.125-1.094 1.125h-4.719v-6.063c0-0.594-0.531-1.125-1.125-1.125h-2.969c-0.594 0-1.125 0.531-1.125 1.125v6.063h-4.719c-0.594 0-1.125-0.531-1.125-1.125v-8.656h-2.688c-0.594 0-0.719-0.313-0.281-0.719l10.594-9.625c0.438-0.406 1.188-0.406 1.656 0l2.406 2.156v-1.719c0-0.594 0.531-1.125 1.125-1.125h2.344c0.594 0 1.094 0.531 1.094 1.125v5.875z"></path> </g></svg>
+                <p class="home">HOME</p></a>
+            </div>
+            <div class="about1">
+            <a href=""><svg class="svg1" width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5 7.063C16.5 10.258 14.57 13 12 13c-2.572 0-4.5-2.742-4.5-5.938C7.5 3.868 9.16 2 12 2s4.5 1.867 4.5 5.063zM4.102 20.142C4.487 20.6 6.145 22 12 22c5.855 0 7.512-1.4 7.898-1.857a.416.416 0 0 0 .09-.317C19.9 18.944 19.106 15 12 15s-7.9 3.944-7.989 4.826a.416.416 0 0 0 .091.317z" fill="#ffffff"></path></g></svg>
+                <p class="about">ABOUT</p> </a>
+            </div>
+            <div class="photos1">
+            <a href=""><svg fill="#ffffff" class="photosvg" width="30px" height="35px" viewBox="0 -2.96 15.929 15.929" id="eye-16px" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="Path_112" data-name="Path 112" d="M-3.768,6.232l-.416-.416A9.609,9.609,0,0,0-11,2.993a9.609,9.609,0,0,0-6.816,2.823l-.416.416a2.5,2.5,0,0,0,0,3.536l.416.416A9.609,9.609,0,0,0-11,13.007a9.609,9.609,0,0,0,6.816-2.823l.416-.416A2.5,2.5,0,0,0-3.768,6.232ZM-11,4a.5.5,0,0,1,.5.5A.5.5,0,0,1-11,5a2,2,0,0,0-2,2,.5.5,0,0,1-.5.5A.5.5,0,0,1-14,7,3,3,0,0,1-11,4Zm6.525,5.061-.416.416A8.581,8.581,0,0,1-11,12.007a8.581,8.581,0,0,1-6.109-2.53l-.416-.416A1.493,1.493,0,0,1-17.964,8a1.493,1.493,0,0,1,.439-1.061l.416-.416A8.624,8.624,0,0,1-14.183,4.6,3.964,3.964,0,0,0-15,7a4,4,0,0,0,4,4A4,4,0,0,0-7,7a3.964,3.964,0,0,0-.817-2.4A8.624,8.624,0,0,1-4.891,6.523l.416.416A1.493,1.493,0,0,1-4.036,8,1.493,1.493,0,0,1-4.475,9.061Z" transform="translate(18.965 -2.993)"></path> </g></svg>
+                <p class="photos">PHOTOS</p></a>
+            </div>
+            <div class="contact1">
+            <a href=""><svg class="contactsvg" width="40px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 8L8.44992 11.6333C9.73295 12.4886 10.3745 12.9163 11.0678 13.0825C11.6806 13.2293 12.3194 13.2293 12.9322 13.0825C13.6255 12.9163 14.2671 12.4886 15.5501 11.6333L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                <p class="contact">CONTACT</p></a>
+            </div>
+        </nav>
+    </div>
+    <div class="navbar">
+        <p>HOME</p>
+        <p>ABOUT</p>
+        <p>PHOTOS</p>
+        <p>CONTACTS</p>
+    </div>
+    <!-- <div>
+        <h1 style="color: #ffffff; font-size: 64px; font-family: sans-serif; font-weight: 300; text-align: center;">I'm John Doe.</h1>
+        <p style="color: #ffffff; font-size: 15px; font-family: sans-serif; text-align: center;">Photographer And Web Designer.</p>
+    </div> -->
+    <div class="imae">
+        <!-- <img src="https://www.w3schools.com/w3images/man_smoke.jpg" alt=""> -->
+    </div>
+</body>
+</html>
